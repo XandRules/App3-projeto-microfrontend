@@ -10,6 +10,7 @@ export const GlobalStyle = createGlobalStyle`
         --text-title: #363f5f;
         --text-body: #969cb3;
         --shape: #ffffff;
+        --green: #33cc95;
 
     }
 
@@ -30,7 +31,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background: var(---background);
+        background: var(--background);
         --webkit-font-smoothing: antialiased;
     }
 
@@ -42,6 +43,7 @@ export const GlobalStyle = createGlobalStyle`
     h1, h2, h3, h4, h5, h6 {
         font-weight: 600;
     }
+
     button {
         cursor: pointer;
     }
@@ -50,5 +52,7 @@ export const GlobalStyle = createGlobalStyle`
         opacity: 0.6;
         cursor: not-allowed;
     }
+
+
 
 `;
